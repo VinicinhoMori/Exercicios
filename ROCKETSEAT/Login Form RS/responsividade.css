@@ -1,0 +1,36 @@
+@media screen and (max-width: 950px){
+    .imagem{
+        display: none;
+    }
+    .pegatudo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .login{
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+    #portao{
+        position: absolute;
+        left: 370px;
+        top: 155px;
+    }
+    #mail{
+        position: absolute;
+        left: 265px;
+        top: 269px;
+    }
+    #eye{
+        position: absolute;
+        left: 620px;
+        top: 365px;
+    }
+    
+    #cadeado{
+        position: absolute;
+        left: 265px;
+        top: 365px;

@@ -1,0 +1,180 @@
+:root{
+    --rosa: rgb(255, 41, 120);
+    --azul: rgb(24, 15, 74);
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cima{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 0px;
+    
+    width: 100%;
+    height: 100px;
+    
+}
+
+.logo{
+    font-size: 25px;
+    font-family: 'Lobster';
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+}
+
+
+li{
+    
+    margin: 0px 20px 0px 20px;
+    padding: 20px 10px 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+li:hover{
+    border-top:4px solid #180F4A;
+    color: var(--rosa);
+}
+
+input{
+    font-size: 20px;
+    padding: 10px 30px;
+    color: white;
+    background-color: var(--azul);
+    border-radius: 8px;
+}
+
+input:hover{
+    background-color: var(--rosa);
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+img{
+   max-width: 90%;
+}
+
+.direita{
+        margin-left:10%;
+        flex:40%;
+}
+
+.direita h2{
+    font-family: 'Lobster';
+    font-weight: 900;
+    font-size:20px;
+    color:#180F4A;
+    padding:0;
+    margin:0;
+}
+
+.direita #voce {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 15px;
+    color: var(--azul);
+}
+
+#botao2{
+    border: none;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: var(--rosa);
+}
+
+#botao2:hover{
+    background-color: var(--azul);
+}
+
+#lorem{
+    font-family: 'Roboto';
+    text-align: justify;
+    margin-top: 10px;
+    opacity: .7;
+}
+
+#roubar{
+    font-size: 25px;
+    text-align: center;
+    padding: 5%;
+    margin-top: 80px;
+    font-family: 'Lobster';
+    color: var(--azul);
+}
+
+
+
+.cartoes{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.cartao{
+    margin-top: 40px;
+    font-family: 'roboto';
+    width: 300px;
+    height: 350px;
+    padding: 10px;
+    border: 1px solid var(--rosa);
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 80px;
+    
+}
+
+.cartao p, h3 { 
+   margin-top: 15px;
+}
+
+footer{
+    text-align: center;
+    background-image: linear-gradient(rgb(24, 15, 74), rgb(9, 4, 34), black);
+    height: 400px;
+    margin-top: 100px;
+    color: white;
+    border-top: 5px solid var(--rosa);
+    
+}
+
+footer h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: 'Lobster';
+    color: white;
+}
+
+footer p {
+    font-family: 'roboto';
+}
+
+.coisa{
+    padding: 100px;
+}
+
+
+
+

@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: hsl(210, 46%, 95%);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.daniel{
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 200px top;
+    height: auto;
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: hsl(263, 55%, 52%);
+}
+.header-daniel{
+    display: flex;
+    margin-bottom: 10px;
+}
+.daniel img{
+    border-radius: 50%;
+    outline: 2px solid #C198FE;
+}
+.nome{
+    line-height: 10px;
+    margin-left: 10px;
+}
+.daniel p{
+    margin-top: 10px;
+    color: #C198FE;
+}
+.daniel h2, h3{
+    color: hsl(210, 46%, 95%);
+}
+
+/* JONA */
+
+.jona{
+    margin-top: 20px;
+    height: auto;
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: hsl(217, 19%, 35%);
+}
+.jona-header{
+    display: flex;
+    margin-bottom: 10px;
+}
+.jona img{
+    border-radius: 50%;
+    outline: 2px solid #C198FE;
+}
+.nome-jona{
+    line-height: 10px;
+    margin-left: 10px;
+}
+.jona p{
+    margin-top: 10px;
+    color: hsl(0, 0%, 81%);
+}
+.jona h2, h3{
+    color: hsl(210, 46%, 95%);
+}
+
+/* JANETTE */
+
+.janette{
+    margin-top: 10px;
+    height: auto;
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+.header-janette{
+    display: flex;
+    margin-bottom: 10px;
+}
+.janette img{
+    border-radius: 50%;
+    outline: 2px solid #C198FE;
+}
+.nome-janette{
+    line-height: 10px;
+    margin-left: 10px;
+}
+.janette p{
+    margin-top: 10px;
+    color: hsl(217, 19%, 35%);
+}
+.janette h2, h3{
+    color: hsl(219, 29%, 14%);
+}
+
+/* PATRICK */
+.patrick{
+    margin-top: 10px;
+    height: auto;
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: hsl(219, 29%, 14%);
+}
+.header-patrick{
+    display: flex;
+    margin-bottom: 10px;
+}
+.patrick img{
+    border-radius: 50%;
+    outline: 2px solid #C198FE;
+}
+.nome-patrick{
+    line-height: 10px;
+    margin-left: 10px;
+}
+.patrick p{
+    margin-top: 10px;
+    color: whitesmoke;
+}
+.patrick h2, h3{
+    color: hsl(0, 0%, 81%);
+}
+
+/* KIRA */
+
+.kira{
+    margin-top: 10px;
+    height: auto;
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+.header-kira{
+    display: flex;
+    margin-bottom: 10px;
+}
+.kira img{
+    border-radius: 50%;
+    outline: 2px solid #C198FE;
+}
+.nome-kira{
+    line-height: 10px;
+    margin-left: 10px;
+}
+.kira p{
+    margin-top: 10px;
+    color: hsl(217, 19%, 35%);
+}
+.kira h2, h3{
+    color: hsl(217, 19%, 35%);
+}

@@ -1,0 +1,122 @@
+:root {
+    --text-base: #afb6c2;
+    --text-title: #d4ccb6;
+    --background: #191816;
+    --form-background: #24221f;
+    --primary-color: #ffc632;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    height: 100vh;
+    background-color: var(--background);
+}
+.logo{
+    width: 50%;
+    background-color: transparent;
+}
+.login-body{
+    display: flex;
+    width: 100%;
+    height: 600px;
+}
+.pegatudo{
+    width: 100%;
+}
+.imagem img{
+    width: 700px;
+    height: 100vh;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    background-color: var(--form-background);
+    color: var(--text-base);
+    width: 50%;
+    padding: 50px;
+}
+.login h2{
+    margin-left: 30px;
+    font-family: 'Roboto';
+    color: var(--text-title);
+}
+.login a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.login a:hover{
+    cursor: pointer;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    outline: none;
+}
+.input-box input{
+    width: 400px;
+    background-color: transparent;
+    padding: 15px 15px 15px 30px;
+    outline: none;
+    border: 2px solid var(--primary-color);
+}
+.input-box input:hover{
+    cursor: pointer;
+}
+.input-box input:focus{
+    cursor: pointer;
+    color: var(--text-base);
+}
+.submit button{
+    margin-top: 10px;
+    border: none;
+    padding: 15px;
+    width: 400px;
+    background-color: var(--primary-color);
+}
+.submit button:hover{
+    background-color: #fab70d;
+    cursor: pointer;
+}
+.espacamento{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.criar-conta{
+    color: var(--primary-color);
+    margin: 10px 0px 10px 90px;
+}
+.criar-conta a{
+    font-weight: bold;
+}
+#portao{
+    position: absolute;
+    left: 50px;
+    top: 143px;
+}
+#mail{
+    position: absolute;
+    left: 55px;
+    top: 255px;
+}
+#eye{
+    position: absolute;
+    left: 420px;
+    top: 350px;
+}
+
+#cadeado{
+    position: absolute;
+    left: 55px;
+    top: 350px;
+}

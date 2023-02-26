@@ -1,0 +1,74 @@
+@media screen and (min-width: 768px){
+    body{
+        background-color: var(--cyan);
+        height:100vh;
+        width: 100%;
+        background-image: url(images/bg-hero-desktop.svg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+ 
+    }
+    .cont-main{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-around;
+       
+    }
+    .sec-img img{
+        min-width: 25rem;
+    }
+    .cont-main h1{
+        max-width: 300px;
+    }
+    .cont-main p{
+        max-width: 500px;
+    }
+
+    .box{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        margin-top: 2rem;
+        height: 20rem;
+        width: 40rem;
+        padding: 1rem;
+        text-align: center;
+    }
+    .box h2, p{
+        margin-left: 80px;
+    }
+    .box img{
+        margin: 0;
+    }
+    .box2{
+        flex-direction: row-reverse;
+    }
+    .box4{
+        flex-direction: column;
+        height: 13rem;
+        width: 28rem;
+        text-align: center;
+        
+    }
+    .box4 h2{
+        text-align: center;
+        margin: 0;
+        
+    }
+    .footer-flex{
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        width: 90%;
+    }
+    #copy{
+        text-align: center;
+        margin-left: 150px;
+    }
+    
+}
+    

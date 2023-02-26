@@ -1,0 +1,74 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+  }
+  *{
+    margin: 0px;
+  }
+
+  body{
+    background-color:var(--body-bg-color);
+   
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  
+  .tudo{
+    height: 100vh;
+    margin-top: 80px ;
+    
+  }
+
+  #perfil{
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  li{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px; 
+    list-style: none;
+    text-decoration: none;
+    border: 1px solid #BB99DD;
+    width: 300px;
+    height: 30px;
+  }
+  
+  a{
+   text-decoration: none;
+    
+  }
+  ul{
+    margin-bottom: 30px;
+  }
+
+  li:hover{
+    background-color: #ab8bca;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  p{
+    color: #ab8bca;
+    margin-bottom: 20px;
+  }
+
+
+
+  
+  

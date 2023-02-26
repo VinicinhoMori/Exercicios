@@ -1,0 +1,158 @@
+
+:root {
+    --purple-bg: #290742;
+    --dark-bg: #170027;
+    --button-bg: #9e6dc2;
+    --white: #fff;
+    --light-purple: #fbf6ff;
+    --green: #4fff4b;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header{
+    padding: 20px 40px;
+    font-family: "Roboto", sans-serif;
+    background-color: var(--purple-bg);
+  }
+
+  body{
+    min-height: 100vh;
+    min-width: 98vw;
+    
+  }
+
+  .menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 700;
+    color: white;
+    padding-top: 20px;
+  }
+
+  ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+
+  li{
+    margin-left: 20px;
+  }
+
+  li:hover{
+    color: var(--button-bg);
+    cursor: pointer;
+  }
+
+  header span{
+    color: var(--green);
+  }
+
+ .conteudoheader{
+    color: white;
+    display: flex;
+    margin: 40px 0px 30px 0px;
+  }
+
+  #foto1{
+    min-width: 500px;
+    margin-left: 10%;
+    margin-right: 8%;
+  }
+
+  .texto{
+    font-size: 20px;
+    margin-left: 85px;
+  }
+
+  .texto h2{
+    color: var(--button-bg);
+    margin-bottom: 20px;
+  }
+
+  .texto p{
+    font-size: 15px;
+    color: whitesmoke;
+    margin-bottom: 20px;
+  }
+
+  #seta{
+    color: var(--button-bg);
+  }
+
+  #linha{
+    background-color: var(--green);
+    width: 98.5vw;
+    height: 10px; 
+  }
+
+  .main-content{
+    text-align: justify;
+    padding: 70px;
+    gap: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    "img two"
+    "img three";
+  }
+
+  .content-img{
+    grid-area: img;
+    
+  }
+
+  .content-two{
+    border-bottom: 2px solid lightgrey;
+    grid-area: two;
+
+    
+  }
+
+  .content-two p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .content-three{
+    grid-area: three;
+  }
+
+  .fotos{
+    text-align: justify;
+    margin: 0px 70px 0px 70px;
+    gap: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+    "item1 item2 item3";
+  }
+
+  .box1{
+    grid-area: item1;
+  }
+
+  .box2{
+    grid-area: item2;
+  }
+
+  .box3{
+    grid-area: item3;
+  }
+
+  h3{
+    color: var(--purple-bg);
+  }
+  
