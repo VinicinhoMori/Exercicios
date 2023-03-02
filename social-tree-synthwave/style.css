@@ -60,12 +60,3 @@ nav a:nth-child(5):hover{
     background-image: linear-gradient(30deg,#5BF876,#0CBC29);
     color: white;
 }
-
-@media (min-width:320){
-    body{
-        background-color: #0074B3   ;
-    }
-    h1{
-        font-size: 10px;
-    }
-}
