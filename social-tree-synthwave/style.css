@@ -6,14 +6,14 @@
     box-sizing: border-box;
 }
 
-body{
+main{
     font-family: "VT323", sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 98vh;
-    width: 98vw;
+    height: 100vh;
+    width: 100vw;
     background-image: url(synthwave2.gif);
     background-position: center center;
     background-repeat: no-repeat;
@@ -39,6 +39,13 @@ nav a{
     text-decoration: none;
     color: #000000de;
     border: 2px solid black;
+    width: 400px;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+nav a:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 nav a:nth-child(1):hover{
     background-image: linear-gradient(30deg,#FFC23F,#FF7900,#E636A2,#273DDE);
