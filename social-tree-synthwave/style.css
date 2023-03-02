@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=VT323&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "VT323", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 98vh;
+    width: 98vw;
+    background-image: url(synthwave2.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+}
+h1{
+    font-size: 4rem;
+    color: whitesmoke;
+}
+h2{
+    margin-bottom: 5px;
+    color: whitesmoke;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+    gap: 5px;
+}
+nav a{
+    text-decoration: none;
+    color: #000000de;
+    border: 2px solid black;
+}
+nav a:nth-child(1):hover{
+    background-image: linear-gradient(30deg,#FFC23F,#FF7900,#E636A2,#273DDE);
+    color: white;
+}
+nav a:nth-child(2):hover{
+    background-image: linear-gradient(200deg, #0f0f0f, #1a1919, #d3d3d3);
+    color: white;
+}
+nav a:nth-child(3):hover{
+    background-image: linear-gradient(30deg,#FF0000, #c20202);
+    color: white;
+}
+nav a:nth-child(4):hover{
+    background-image: linear-gradient(30deg,#0074B3, #0290CE);
+    color: white;
+}
+nav a:nth-child(5):hover{
+    background-image: linear-gradient(30deg,#5BF876,#0CBC29);
+    color: white;
+}
+
+@media (min-width:320){
+    body{
+        background-color: #0074B3   ;
+    }
+    h1{
+        font-size: 10px;
+    }
+}
