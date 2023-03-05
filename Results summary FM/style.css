@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;800&family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk";
+}
+body{
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.container{
+    display: flex;
+    height: 500px;
+    width: 700px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 40px;
+}
+.direita{
+    padding: 30px;
+    height: 100%;
+    max-width: 380px;
+    background-image: linear-gradient(hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%));
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 40px;
+}
+.direita h3{
+    color: hsl(241, 100%, 89%);
+}
+.direita .bola-numero{
+    background-color: hsla(256, 72%, 46%, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: hsl(0, 0%, 100%);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.bola-numero span:nth-child(1){
+    font-size: 50px;
+    font-weight: 800;
+}
+.direita h2{
+    color: hsl(0, 0%, 100%);
+}
+.direita p{
+    color: hsl(0, 0%, 100%);
+    opacity: .4;
+    font-size: 20px;
+    max-width: 70%;
+}
+.esquerda{
+    padding: 30px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 40px;
+}
+.esquerda-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+.reaction{
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: hsla(0, 100%, 67%, 0.438);
+}
+.detacado{
+    margin-right: 80px;
+}
+.memory{
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: hsla(39, 100%, 56%, 0.438);
+}
+.verbal{
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: hsla(166, 100%, 37%, 0.438);
+}
+.visual{
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: hsla(234, 85%, 45%, 0.438);
+}
+.esquerda-text a{
+    text-decoration: none;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 30px;
+    color: white;
+    width: 90%;
+    padding: 15px 10px;
+    transition: 0.5s;
+} 
+.esquerda-text a:hover{
+    background-image: linear-gradient(hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%));
+    
+}
+
