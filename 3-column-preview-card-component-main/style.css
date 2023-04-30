@@ -1,0 +1,62 @@
+:root{
+    --sedan-back:hsl(31, 77%, 52%);
+    --suv-back: hsl(184, 100%, 22%);
+    --luxury-back: hsl(179, 100%, 13%);
+    --white:hsl(0, 0%, 95%);
+    --text-color:hsla(0, 0%, 100%, 0.75);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 500px; width: 400px;
+    color: var(--text-color);
+    padding: 60px 60px;
+    
+}
+.box h1{
+    margin-top: 40px;
+    color: var(--white);
+    font-family: 'Big Shoulders Display';
+    text-transform: uppercase;
+}
+.box p{
+    margin-top: 20px;
+    font-family: 'Lexend Deca';
+    line-height: 1.8rem;
+    color: var(--text-color);
+    font-size: 15px;
+    max-width: 200px;
+}
+.sedan{
+    background-color: var(--sedan-back);
+    border-radius: 8px 0px 0px 8px;
+}
+.suv{
+    background-color: var(--suv-back);
+}
+.luxury{
+    background-color: var(--luxury-back);
+    border-radius: 0px 8px 8px 0px;
+}
+.btn{
+    margin-top: 60px;
+    outline: none;
+    border: none;
+    width: 9rem;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}

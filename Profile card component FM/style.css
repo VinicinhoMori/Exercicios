@@ -1,0 +1,33 @@
+:root {
+   a --background-color: hsl(185, 75%, 39%);
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--background-color);
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+
+}
+.container{
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid red;
+}
+.header{
+    position: relative;
+    border-radius: 20px 20px 0px 0px;
+    display: grid;
+    place-items: center;
+    border: 2px solid rgb(115, 255, 0);
+    background-image: url(images/bg-pattern-card.svg);
+}
+.header-img{
+    position: absolute;
+}

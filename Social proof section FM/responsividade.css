@@ -1,0 +1,15 @@
+@media (max-width: 768px){
+    body{
+        background-image: url(images/bg-pattern-bottom-mobile.svg);
+    }
+    .top{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .coments{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}

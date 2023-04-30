@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan';
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/bg-pattern-bottom-desktop.svg);
+    background-position: right bottom;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+.text h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+.text p{
+    opacity: 60%;
+    margin-top: 15px;
+    max-width: 400px;
+}
+.top{
+    height: 260px;
+    display: flex;
+    justify-content: space-between;
+}
+.rate{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.rate__box{
+    width: 350px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    margin-top: 25px;
+}
+.box-2{
+    margin-left: 40px;
+}
+.box-3{
+    margin-left: 80px;
+}
+.coments{
+    gap: 20px;
+    display: flex;
+}
+.boxes{
+    background-color:  hsl(300, 43%, 22%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    border-radius: 10px;
+    height: 200px;
+    padding: 30px;
+    position: relative;
+}
+.boxes img{
+    position: absolute;
+    border-radius: 50%;
+    width: 40px;
+    top: 30px;
+}
+.name{
+    color: hsl(0, 0%, 100%);
+    margin-left: 60px;
+}
+.desc{
+    color: hsl(333, 80%, 67%);
+    margin-left: 60px;
+}
+.boxes p{
+    color: hsl(0, 0%, 100%);
+    margin-top: 15px;
+}
+.irene{
+    margin-top: 20px;
+}
+.ane{
+    margin-top: 40px;
+}
